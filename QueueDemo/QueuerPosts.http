@@ -1,0 +1,32 @@
+### Test POST Request - Valid Data
+POST http://localhost:5000/api/data HTTP/1.1
+Content-Type: application/json
+
+{
+  "data": "Hello, Queue!",
+  "userId": "123"
+}
+
+### Test POST Request - Invalid Data (Empty)
+POST http://localhost:5000/api/data HTTP/1.1
+Content-Type: application/json
+
+{
+  "data": "",
+  "userId": "123"
+}
+
+### Test POST Request - Invalid Data (Empty)
+POST http://localhost:5000/api/data HTTP/1.1
+Content-Type: application/json
+
+{
+  "data": "123",
+  "userId": ""
+}
+
+### Test POST Request - Invalid Data (Missing Field)
+POST http://localhost:5000/api/data HTTP/1.1
+Content-Type: application/json
+
+{}
