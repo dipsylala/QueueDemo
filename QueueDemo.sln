@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuer", "Queuer\Queuer.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{810EE787-F84F-492F-9834-D9641171EDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuerFunction", "QueuerFunction\QueuerFunction.csproj", "{079FC066-1485-4C4B-A912-683B9AF60F61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079FC066-1485-4C4B-A912-683B9AF60F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079FC066-1485-4C4B-A912-683B9AF60F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079FC066-1485-4C4B-A912-683B9AF60F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079FC066-1485-4C4B-A912-683B9AF60F61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
