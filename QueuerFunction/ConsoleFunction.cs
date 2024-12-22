@@ -10,7 +10,7 @@ namespace QueuerFunction
     public class ConsoleFunction
     {
         [FunctionName("ProcessQueueMessage")]
-        public async Task Run([QueueTrigger("myqueue", Connection = "AzureWebJobsStorage")] string message, ILogger log)
+        public static async Task Run([QueueTrigger("myqueue", Connection = "AzureWebJobsStorage")] string message, ILogger log)
         {
             try
             {
