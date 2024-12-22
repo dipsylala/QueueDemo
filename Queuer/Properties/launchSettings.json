@@ -1,4 +1,4 @@
-﻿{
+{
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
@@ -9,13 +9,21 @@
     },
     "QueueApi": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "AzureStorageConnectionString": "UseDevelopmentStorage=true"
-      }
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59502/",
+      "sslPort": 44388
     }
   }
 }

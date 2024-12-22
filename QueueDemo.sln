@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuer", "QueueDemo\Queuer.csproj", "{CCD60697-D468-47AB-A369-CFC983EA969B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queuer", "Queuer\Queuer.csproj", "{CCD60697-D468-47AB-A369-CFC983EA969B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "QueueWorker\Worker.csproj", "{810EE787-F84F-492F-9834-D9641171EDC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{810EE787-F84F-492F-9834-D9641171EDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "QueueCommon\Common.csproj", "{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C29E4D3E-F681-45A4-9712-6A66A9C3D51A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
