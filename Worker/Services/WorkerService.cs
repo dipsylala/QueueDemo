@@ -17,16 +17,13 @@ public class WorkerService(QueueClient queueClient) : BackgroundService
             {
                 try
                 {
-                    // Deserialize the message body
                     var request = JsonSerializer.Deserialize<PostDataRequest>(message.MessageText);
 
                     if (request != null)
                     {
-                        // Process the message
                         Console.WriteLine($"Processing UserId: {request.UserId}, Data: {request.Data}");
                     }
 
-                    // Delete the message after successful processing
                     await queueClient.DeleteMessageAsync(message.MessageId, message.PopReceipt, stoppingToken);
                 }
                 catch (Exception ex)
@@ -35,7 +32,7 @@ public class WorkerService(QueueClient queueClient) : BackgroundService
                 }
             }
 
-            await Task.Delay(1000); // Optional delay to control polling frequency
+            await Task.Delay(1000, stoppingToken);
         }
     }
 }
